@@ -33,18 +33,30 @@ Scanner scan = new Scanner(System.in); {
 	//the following code is given.
 	
 int tip_percent = scan.nextInt();
+
 int tax_percent = scan.nextInt();
+
 double meal_cost = scan.nextDouble();
 
 //this looks like a mess...even to me.
+
 int tip = tip_percent / 100; 
+
 int mealAndTip = tip * meal_cost; // apparently you cannot perform an operation on a double and an int? i have tried to look this up.
+
 //im trying to add the tip percent to the total meal cost.
+
 int tax = tax_percent / 100;
+
 int mealAndTax = tax * meal_cost;//this also gives an "cannot convert double to int" error.
+
 //same thing here just with tax.
 
 int totalCost = mealAndTip + mealAndTax;
+
 //adding both to the total cost of the meal. 
+
 System.out.println(totalCost);
+
 //help. . . 
+
