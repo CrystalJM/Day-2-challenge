@@ -38,7 +38,6 @@ int tax_percent = scan.nextInt();
 
 double meal_cost = scan.nextDouble();
 
-//this looks like a mess...even to me.
 
 int tip = tip_percent / 100; 
 
@@ -58,5 +57,4 @@ int totalCost = mealAndTip + mealAndTax;
 
 System.out.println(totalCost);
 
-//help. . . 
 
